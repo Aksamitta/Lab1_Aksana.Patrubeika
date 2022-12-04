@@ -78,6 +78,37 @@ namespace TMS._01.Variables
             Console.Write($"Shift Left: {ByShiftL} ");
             Console.WriteLine();
 
+            Console.WriteLine("SBYTE");
+            sbyte SByA = 23;
+            sbyte SByB = 2;
+            sbyte SBySum = (sbyte)(SByA + SByB);                         //operations work with converting to byte
+            sbyte SByDiff = (sbyte)(SByA - SByB);
+            sbyte SByMult = (sbyte)(SByA * SByB);
+            sbyte SByDiv = (sbyte)(SByA / SByB);
+            sbyte SByRem = (sbyte)(SByA % SByB);
+            sbyte SByIn = ++ SByA;
+            sbyte SByDec = -- SByA;
+            sbyte SByLogMult = (sbyte)(SByA & SByB);
+            sbyte SByLogSum = (sbyte)(SByA | SByB);
+            sbyte SByLogExcep = (sbyte)(SByA ^ SByB);
+            sbyte SByShiftR = (sbyte)(SByA >> SByB);
+            sbyte SByShiftL = (sbyte)(SByA << SByB);
+            sbyte SByInv = (sbyte)(~SByA);
+            Console.Write($"Addition: {SBySum} ");
+            Console.Write($"Subtraction: {SByDiff} ");
+            Console.Write($"Product: {SByMult} ");
+            Console.Write($"Quotient: {SByDiv} ");
+            Console.Write($"Remainder of division: {SByRem} ");
+            Console.Write($"Increment: {SByIn} ");
+            Console.Write($"Decrement: {SByDec} ");
+            Console.Write($"Logical Product: {SByLogMult} ");
+            Console.Write($"Logical Addition: {SByLogSum} ");
+            Console.Write($"Logical Exception: {SByLogExcep} ");
+            Console.Write($"Inversion: {SByInv} ");
+            Console.Write($"Shift Right: {SByShiftR} ");
+            Console.Write($"Shift Left: {SByShiftL} ");
+            Console.WriteLine();
+
             Console.WriteLine("SHORT");
             short ShA = 100;
             short ShB = 3;
@@ -86,8 +117,8 @@ namespace TMS._01.Variables
             short ShMult = (short)(ShA * ShB);
             short ShDiv = (short)(ShA / ShB);
             short ShRem = (short)(ShA % ShB);
-            short ShIn = ++ByA;
-            short ShDec = --ByA;
+            short ShIn = ++ ShA;
+            short ShDec = -- ShA;
             short ShLogMult = (short)(ShA & ShB);
             short ShLogSum = (short)(ShA | ShB);
             short ShLogExcep = (short)(ShA ^ ShB);
@@ -107,6 +138,37 @@ namespace TMS._01.Variables
             Console.Write($"Inversion: {ShInv} ");
             Console.Write($"Shift Right: {ShShiftR} ");
             Console.Write($"Shift Left: {ShShiftL} ");
+            Console.WriteLine();
+
+            Console.WriteLine("USHORT");
+            ushort UShA = 623;
+            ushort UShB = 30;
+            ushort UShSum = (ushort)(UShA + UShB);                       //the same as byte
+            ushort UShDiff = (ushort)(UShA - UShB);
+            ushort UShMult = (ushort)(UShA * UShB);
+            ushort UShDiv = (ushort)(UShA / UShB);
+            ushort UShRem = (ushort)(UShA % UShB);
+            ushort UShIn = ++ UShA;
+            ushort UShDec = -- UShA;
+            ushort UShLogMult = (ushort)(UShA & UShB);
+            ushort UShLogSum = (ushort)(UShA | UShB);
+            ushort UShLogExcep = (ushort)(UShA ^ UShB);
+            ushort UShShiftR = (ushort)(UShA >> UShB);
+            ushort UShShiftL = (ushort)(UShA << UShB);
+            ushort UShInv = (ushort)(~ UShA);
+            Console.Write($"Addition: {UShSum} ");
+            Console.Write($"Subtraction: {UShDiff} ");
+            Console.Write($"Product: {UShMult} ");
+            Console.Write($"Quotient: {UShDiv} ");
+            Console.Write($"Remainder of division: {UShRem} ");
+            Console.Write($"Increment: {UShIn} ");
+            Console.Write($"Decrement: {UShDec} ");
+            Console.Write($"Logical Product: {UShLogMult} ");
+            Console.Write($"Logical Addition: {UShLogSum} ");
+            Console.Write($"Logical Exception: {UShLogExcep} ");
+            Console.Write($"Inversion: {UShInv} ");
+            Console.Write($"Shift Right: {UShShiftR} ");
+            Console.Write($"Shift Left: {UShShiftL} ");
             Console.WriteLine();
 
             Console.WriteLine("INT");
@@ -140,6 +202,37 @@ namespace TMS._01.Variables
             Console.Write($"Shift Left: {IShiftL} ");
             Console.WriteLine();
 
+            Console.WriteLine("UINT");
+            uint UIa = 3021;
+            uint UIb = 3023;
+            uint UISum = UIa + UIb;
+            uint UIDiff = UIa - UIb;
+            uint UIMult = UIa * UIb;
+            uint UIDiv = UIa / UIb;
+            uint UIRem = UIa % UIb;
+            uint UIIn = ++ UIa;
+            uint UIDec = -- UIa;
+            uint UILogMult = UIa & UIb;
+            uint UILogSum = UIa | UIb;
+            uint UILogExcep = UIa ^ UIb;
+            //uint UIShiftR = UIa >> UIb;           //Shift Right doesnt work with uint type
+            //uint UIShiftL = UIa << UIb;           //Shift Left doesnt work with uint type
+            uint UIInv = ~ UIa;
+            Console.Write($"Addition: {UISum} ");
+            Console.Write($"Subtraction: {UIDiff} ");
+            Console.Write($"Product: {UIMult} ");
+            Console.Write($"Quotient: {UIDiv} ");
+            Console.Write($"Remainder of division: {UIRem} ");
+            Console.Write($"Increment: {UIIn} ");
+            Console.Write($"Decrement: {UIDec} ");
+            Console.Write($"Logical Product: {UILogMult} ");
+            Console.Write($"Logical Addition: {UILogSum} ");
+            Console.Write($"Logical Exception: {UILogExcep} ");
+            Console.Write($"Inversion: {UIInv} ");
+            //Console.Write($"Shift Right: {UIShiftR} ");
+            //Console.Write($"Shift Left: {UIShiftL} ");
+            Console.WriteLine();
+
             Console.WriteLine("LONG");
             long La = 100;
             long Lb = 3;
@@ -169,6 +262,37 @@ namespace TMS._01.Variables
             Console.Write($"Inversion: {LInv} ");
             //Console.Write($"Shift Right: {LShiftR} ");
             //Console.Write($"Shift Left: {LShiftL} ");
+            Console.WriteLine();
+
+            Console.WriteLine("ULONG");
+            ulong ULa = 3256;
+            ulong ULb = 85693;
+            ulong ULSum = ULa + ULb;
+            ulong ULDiff = ULa - ULb;
+            ulong ULMult = ULa * ULb;
+            ulong ULDiv = ULa / ULb;
+            ulong ULRem = ULa % ULb;
+            ulong ULIn = ++ ULa;
+            ulong ULDec = -- ULa;
+            ulong ULLogMult = ULa & ULb;
+            ulong ULLogSum = ULa | ULb;
+            ulong ULLogExcep = ULa ^ ULb;
+            //ulong ULShiftR = ULa >> ULb;                      //Shift Right doesnt work with ulong type
+            //ulong ULShiftL = ULa << ULb;                      //Shift Left doesnt work with ulong type
+            ulong ULInv = ~ULa;
+            Console.Write($"Addition: {ULSum} ");
+            Console.Write($"Subtraction: {ULDiff} ");
+            Console.Write($"Product: {ULMult} ");
+            Console.Write($"Quotient: {ULDiv} ");
+            Console.Write($"Remainder of division: {ULRem} ");
+            Console.Write($"Increment: {ULIn} ");
+            Console.Write($"Decrement: {ULDec} ");
+            Console.Write($"Logical Product: {ULLogMult} ");
+            Console.Write($"Logical Addition: {ULLogSum} ");
+            Console.Write($"Logical Exception: {ULLogExcep} ");
+            Console.Write($"Inversion: {ULInv} ");
+            //Console.Write($"Shift Right: {ULShiftR} ");
+            //Console.Write($"Shift Left: {ULShiftL} ");
             Console.WriteLine();
 
             Console.WriteLine("FLOAT");
@@ -286,7 +410,7 @@ namespace TMS._01.Variables
 
             Console.WriteLine("STRING");
             string StA = "Thanks God";                      //almost nothing works with string type except addition (+) 
-            string StB = " it's Frieday";
+            string StB = " it's Friday";
             string StSum = StA + StB;
             //string StDiff = StA - StB;                    //subtraction doesnt work with string type
             //string StMult = StA * StB;                    //product doesnt work with string type
