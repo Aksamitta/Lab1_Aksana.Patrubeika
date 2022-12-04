@@ -1,0 +1,8 @@
+D:\C#\LABS\TMS.01.Variables\TMS.01.Variables\bin\Debug\TMS.01.Variables.exe.config
+D:\C#\LABS\TMS.01.Variables\TMS.01.Variables\bin\Debug\TMS.01.Variables.exe
+D:\C#\LABS\TMS.01.Variables\TMS.01.Variables\bin\Debug\TMS.01.Variables.pdb
+D:\C#\LABS\TMS.01.Variables\TMS.01.Variables\obj\Debug\TMS.01.Variables.csproj.AssemblyReference.cache
+D:\C#\LABS\TMS.01.Variables\TMS.01.Variables\obj\Debug\TMS.01.Variables.csproj.SuggestedBindingRedirects.cache
+D:\C#\LABS\TMS.01.Variables\TMS.01.Variables\obj\Debug\TMS.01.Variables.csproj.CoreCompileInputs.cache
+D:\C#\LABS\TMS.01.Variables\TMS.01.Variables\obj\Debug\TMS.01.Variables.exe
+D:\C#\LABS\TMS.01.Variables\TMS.01.Variables\obj\Debug\TMS.01.Variables.pdb
